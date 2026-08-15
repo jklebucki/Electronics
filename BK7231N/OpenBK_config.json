@@ -1,0 +1,23 @@
+{
+  "vendor": "Tuya",
+  "bDetailed": "1",
+  "name": "DIN Rail Circuit Breaker 63A with Energy Meter",
+  "model": "CBU-BL0942",
+  "chip": "BK7231N",
+  "board": "CBU",
+  "flags": "0",
+  "keywords": [
+    "BL0942",
+    "DIN rail",
+    "energy meter",
+    "bistable relay"
+  ],
+  "pins": {
+    "7": "BridgeFWD;1",
+    "8": "BridgeREV;1",
+    "9": "LED_n;1",
+    "15": "WifiLED_n;0",
+    "17": "Btn;1"
+  },
+  "command": "backlog startDriver BL0942; startDriver Bridge; BridgePulseLength 60"
+}

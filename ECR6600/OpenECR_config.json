@@ -1,0 +1,25 @@
+{
+  "vendor": "Tuya",
+  "bDetailed": "1",
+  "name": "ECR6600 Smart Plug with Energy Meter",
+  "model": "keyge8wsy99n5pr7",
+  "chip": "ECR6600",
+  "board": "on PCB",
+  "flags": "1028",
+  "keywords": [
+    "ECR6600",
+    "BL0937",
+    "energy meter",
+    "smart plug"
+  ],
+  "pins": {
+    "0": "LED_n;1",
+    "14": "BL0937CF;0",
+    "15": "BL0937SEL;0",
+    "20": "BL0937CF1;0",
+    "22": "WifiLED;0",
+    "24": "Btn;1",
+    "25": "Rel;1"
+  },
+  "command": ""
+}

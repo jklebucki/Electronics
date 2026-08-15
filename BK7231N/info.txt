@@ -1,3 +1,5 @@
+FARYLINK DIN Rail Circuit Breaker 63A with Energy Meter
+
 Device configuration, as extracted from Tuya: 
 - Button (channel 1) on P17
 - LED (channel 1) on P9
