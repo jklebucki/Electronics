@@ -1,0 +1,11 @@
+Device configuration, as extracted from Tuya: 
+- BL0937 SEL on P15
+- Button (channel 1) on P24
+- LED (channel 1) on P0
+- BL0937 VI (CF1) on P20
+- WiFi LED on P22
+- BL0937 ELE (CF) on P14
+- Relay (channel 1) on P25
+Device seems to be using CBU module, which is using BK7231N.
+Device internal platform - eswin_ecr6600, equals ECR6600.
+And the Tuya section starts at 1921024 (0x1D5000), which is a default RTL8720C and ECR6600 offset.

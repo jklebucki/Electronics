@@ -1,0 +1,353 @@
+{
+  "gw_wsm": {
+    "nc_tp": 9,
+    "ssid": "T3JhbmdlX1N3aWF0bG93b2RfQjVBQw==",
+    "passwd": "Y2RIcWhNb3R2Z01TSjlMNHRE",
+    "md": 3,
+    "wfb64": 1,
+    "stat": 2,
+    "token": "cr8sII24",
+    "region": "EU",
+    "reg_key": "LvmF",
+    "dns_prio": 0,
+    "is_psk30_cfg": true
+  },
+  "kv.meta.report": {
+    "metas": {
+      "supportLogUpd": true,
+      "btScyChannel": "{"enable":1,"version":"1.0"}",
+      "timerCapability": 1,
+      "supportLocalKeyChange": true
+    }
+  },
+  "tyDevDataIndex": "0e000000090000000a",
+  "gw_bi": {
+    "uuid": "b544a192c9946328",
+    "psk_key": "Cevqrv9vAVMaBhczAV40A6LZDT2Z7mx4CUJnZ",
+    "auth_key": "CqGgQGRFIRalzy9j4dNiarxG04VGB3c3",
+    "ap_ssid": "SmartLife",
+    "ap_passwd": null,
+    "country_code": "CN",
+    "bt_mac": null,
+    "bt_hid": null,
+    "prod_test": false,
+    "fac_pin": "hthgmqorwcz7i4v2",
+    "psk30_key": "d1dnp1GbMMDKyQLFYyRm6Z2ll+aXxht90g3tzPEBNEU=",
+    "pin": null
+  },
+  "user_param_key": {
+    "sel_pin_pin": 15,
+    "rl1_lv": 1,
+    "bt1_pin": 24,
+    "led1_pin": 0,
+    "net_trig": 4,
+    "jv": "0.0.2",
+    "netled1_lv": 1,
+    "netled_reuse": 0,
+    "nety_led": 1,
+    "vi_pin": 20,
+    "over_cur": 30000,
+    "resistor": 1,
+    "bt1_lv": 0,
+    "reset_t": 5,
+    "netled1_pin": 22,
+    "chip_type": 0,
+    "lose_vol": 90,
+    "over_vol": 265,
+    "module": "CBU",
+    "ele_pin": 14,
+    "ch_cddpid1": 9,
+    "ch1_stat": 2,
+    "led1_lv": 0,
+    "ch_num": 1,
+    "ele_fun_en": 1,
+    "rl1_pin": 25,
+    "netn_led": 0,
+    "vol_def": 0,
+    "ch_dpid1": 1,
+    "sel_pin_lv": 1,
+    "crc": 62
+  },
+  "gw_di": {
+    "abi": 0,
+    "id": "bf1ebd02bf18afc9fecpuy",
+    "swv": "0.1.0",
+    "bv": "40.00",
+    "pv": "2.3",
+    "lpv": "3.5",
+    "pk": "keyge8wsy99n5pr7",
+    "firmk": "keyge8wsy99n5pr7",
+    "cadv": "1.0.5",
+    "cdv": "1.0.0",
+    "dev_swv": "0.1.0",
+    "s_id": "e1kqtn9g",
+    "dtp": 0,
+    "sync": 0,
+    "attr_num": 1,
+    "mst_tp_0": 9,
+    "mst_ver_0": "0.1.0",
+    "mst_md5_0": null,
+    "mst_tp_1": 0,
+    "mst_ver_1": null,
+    "mst_md5_1": null,
+    "mst_tp_2": 0,
+    "mst_ver_2": null,
+    "mst_md5_2": null,
+    "mst_tp_3": 0,
+    "mst_ver_3": null,
+    "mst_md5_3": null,
+    "mst_tp_4": 0,
+    "mst_ver_4": null,
+    "mst_md5_4": null,
+    "mst_tp_5": 0,
+    "mst_ver_5": null,
+    "mst_md5_5": null,
+    "mst_tp_6": 0,
+    "mst_ver_6": null,
+    "mst_md5_6": null,
+    "mst_tp_7": 0,
+    "mst_ver_7": null,
+    "mst_md5_7": null,
+    "mst_tp_8": 0,
+    "mst_ver_8": null,
+    "mst_md5_8": null,
+    "mst_tp_9": 0,
+    "mst_ver_9": null,
+    "mst_md5_9": null
+  },
+  "bt_encrpt_v2": 1,
+  "rcs.active": "010100000201000103080045552d50524f440004120068332d65752e696f742d646e732e636f6d",
+  "is_stride": 0,
+  "mf_test_close": true,
+  "tls_ca_cnt": 0,
+  "tyDevDataOffset": "000400000000000000080000fc",
+  "astro_timer": {
+    "timestamp": 1786730335,
+    "index": 0
+  },
+  "e1kqtn9g": [
+    {
+      "mode": "rw",
+      "property": {
+        "type": "bool"
+      },
+      "id": 1,
+      "type": "obj"
+    },
+    {
+      "mode": "rw",
+      "property": {
+        "min": 0,
+        "max": 86400,
+        "scale": 0,
+        "step": 1,
+        "type": "value"
+      },
+      "id": 9,
+      "type": "obj"
+    },
+    {
+      "mode": "ro",
+      "property": {
+        "min": 0,
+        "max": 50000,
+        "scale": 3,
+        "step": 100,
+        "type": "value"
+      },
+      "id": 17,
+      "trigger": "direct",
+      "type": "obj"
+    },
+    {
+      "mode": "ro",
+      "property": {
+        "min": 0,
+        "max": 30000,
+        "scale": 0,
+        "step": 1,
+        "type": "value"
+      },
+      "id": 18,
+      "type": "obj"
+    },
+    {
+      "mode": "ro",
+      "property": {
+        "min": 0,
+        "max": 80000,
+        "scale": 1,
+        "step": 1,
+        "type": "value"
+      },
+      "id": 19,
+      "type": "obj"
+    },
+    {
+      "mode": "ro",
+      "property": {
+        "min": 0,
+        "max": 5000,
+        "scale": 1,
+        "step": 1,
+        "type": "value"
+      },
+      "id": 20,
+      "type": "obj"
+    },
+    {
+      "mode": "ro",
+      "property": {
+        "min": 0,
+        "max": 5,
+        "scale": 0,
+        "step": 1,
+        "type": "value"
+      },
+      "id": 21,
+      "type": "obj"
+    },
+    {
+      "mode": "ro",
+      "property": {
+        "min": 0,
+        "max": 1000000,
+        "scale": 0,
+        "step": 1,
+        "type": "value"
+      },
+      "id": 22,
+      "type": "obj"
+    },
+    {
+      "mode": "ro",
+      "property": {
+        "min": 0,
+        "max": 1000000,
+        "scale": 0,
+        "step": 1,
+        "type": "value"
+      },
+      "id": 23,
+      "type": "obj"
+    },
+    {
+      "mode": "ro",
+      "property": {
+        "min": 0,
+        "max": 1000000,
+        "scale": 0,
+        "step": 1,
+        "type": "value"
+      },
+      "id": 24,
+      "type": "obj"
+    },
+    {
+      "mode": "ro",
+      "property": {
+        "min": 0,
+        "max": 1000000,
+        "scale": 0,
+        "step": 1,
+        "type": "value"
+      },
+      "id": 25,
+      "type": "obj"
+    },
+    {
+      "mode": "ro",
+      "property": {
+        "type": "bitmap",
+        "maxlen": 6
+      },
+      "id": 26,
+      "type": "obj"
+    },
+    {
+      "mode": "rw",
+      "property": {
+        "range": [
+          "off",
+          "on",
+          "memory"
+        ],
+        "type": "enum"
+      },
+      "id": 38,
+      "type": "obj"
+    },
+    {
+      "mode": "rw",
+      "property": {
+        "type": "bool"
+      },
+      "id": 39,
+      "type": "obj"
+    },
+    {
+      "mode": "rw",
+      "property": {
+        "type": "bool"
+      },
+      "id": 41,
+      "type": "obj"
+    },
+    {
+      "mode": "rw",
+      "property": {
+        "type": "string",
+        "maxlen": 255
+      },
+      "id": 42,
+      "type": "obj"
+    },
+    {
+      "mode": "rw",
+      "property": {
+        "type": "string",
+        "maxlen": 255
+      },
+      "id": 43,
+      "type": "obj"
+    },
+    {
+      "mode": "rw",
+      "property": {
+        "type": "string",
+        "maxlen": 255
+      },
+      "id": 44,
+      "type": "obj"
+    }
+  ],
+  "tuya_seed": "932a99215a7956b4576fa930cc17eaa02ba7a6ea2a320ff727102cefbd0da91a35cbe4c56330311c5faddb71504a19845023bc778cc40b2a05db4809d72960d8",
+  "em_sys_env": "eswin_ecr6600",
+  "gw_ai": {
+    "key": "Vef?QuI0z3(lls'W",
+    "lckey": "Q_]j~@{t[gKPK+qf",
+    "h_url": "http://a.tuyaeu.com/d.json",
+    "h_ip": "3.78.92.3",
+    "hs_url": null,
+    "hs_ip": null,
+    "hs_psk": "https://a3.tuyaeu.com/d.json",
+    "hs_psk_ip": "18.158.227.228",
+    "mqs_url": null,
+    "mqs_ip": null,
+    "mq_url": "m2.tuyaeu.com:1883",
+    "mq_ip": "3.67.242.33",
+    "ai_sp": null,
+    "ai_sp_ip": null,
+    "mq_psk": "m3.tuyaeu.com:8886",
+    "mq_psk_ip": "18.185.146.33",
+    "lp_url": "baal.tuyaeu.com:443",
+    "lp_ip": "3.124.173.10",
+    "time_z": "+01:00",
+    "s_time_z": "[[1774746000,1792890000],[1806195600,1824944400]]",
+    "wx_app_id": null,
+    "wx_uuid": null,
+    "dy_tls_m": 0,
+    "cloud_cap": 1025
+  },
+  "ap_info_v2": "XAIAAE9yYW5nZV9Td2lhdGxvd29kX0I1QUMAAAAAAAAAAAAAAAAAAGNkSHFoTW90dmdNU0o5TDR0RAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIDfwl4kpAAUAAAABAU8UTqxDcyr6C8cgkA+GWXJBKyCS0z13ZXyzCiD8MG3VAADAqJAD////AMCokAHAqJABAAAAABEBAAACTXl3pAEAFk9yYW5nZV9Td2lhdGxvd29kX0I1QUMBCIKEi5YkMEhsAwEBBQQCAwQIBwZQTCABDRQgAQAjAhcAKgEEMgQMEhhgMBQBAAAPrAQBAAAPrAQBAAAPrAKMAAsFBwBZAAA7BAQECwwtGu8ZF////wAAAAAAAAAAAAAAAAAAAAAAAAAAPRYBABcAAAAAAAAAAAAAAAAAAAAAAAAASg4UAAoALAHIABQABQAZAH8LhQAIggAAQMABQCBrAQBsAn8A/xwjBQAYGgAQIiBCwA8ClRAAzADq/+r/GhzHcRwH/wgkBIABP/z/BP8OJg8ApEAgpEBAQ0BgMkD/D2yiAewBAuAw5wByADMzM/8GakARAAAA/w5rMAELIDfwl4kpAACAB90YUG+aKQEAAA+sBAEAAA+sBAEAAA+sCMwA3RhQb5oqAQAAD6wEAQAAD6wJAQAAD6wYzADdBVBvmisg3RoAkEwEGL8MsnmKD+r/AADq/wAgwAUAAQAAAN0JABAYAgAAHAAA3RgAUPICAQEPAAOkAAAnpAAAQkNeAGIyLwDdB1BvmhYBAQAAAFpaWlo="
+}
